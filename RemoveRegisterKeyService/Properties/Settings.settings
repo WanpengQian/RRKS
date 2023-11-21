@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RemoveRegisterKeyService.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Interval" Type="System.Int64" Scope="Application">
+      <Value Profile="(Default)">1440</Value>
+    </Setting>
+    <Setting Name="Key" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SYSTEM\CurrentControlSet\Control\Terminal Server\RCM\GracePeriod</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

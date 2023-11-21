@@ -1,0 +1,411 @@
+﻿
+トランザクションのインストールを実行中です。
+
+インストール段階を開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+インストール段階が正常に完了しました。コミット段階を開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+コミット段階が正常に終了しました。
+
+トランザクション インストールが完了しました。
+
+トランザクションのインストールを実行中です。
+
+インストール段階を開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+インストール段階が正常に完了しました。コミット段階を開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+コミット段階が正常に終了しました。
+
+トランザクション インストールが完了しました。
+
+トランザクションのインストールを実行中です。
+
+インストール段階を開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+インストール段階で例外が発生しました。
+System.InvalidOperationException: ServiceProcessInstaller がないため、インストールに失敗しました。ServiceProcessInstaller は、インストーラーに含まれているか、または ServiceInstaller と同じインストーラーのインストーラー コレクションになければなりません。
+
+インストールのロールバックを開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+ロールバックの段階が正常に完了しました。
+
+トランザクション インストールが完了しました。
+
+トランザクションのインストールを実行中です。
+
+インストール段階を開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+インストール段階で例外が発生しました。
+System.InvalidOperationException: ServiceProcessInstaller がないため、インストールに失敗しました。ServiceProcessInstaller は、インストーラーに含まれているか、または ServiceInstaller と同じインストーラーのインストーラー コレクションになければなりません。
+
+インストールのロールバックを開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+ロールバックの段階が正常に完了しました。
+
+トランザクション インストールが完了しました。
+
+トランザクションのインストールを実行中です。
+
+インストール段階を開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+インストール段階が正常に完了しました。コミット段階を開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+コミット段階が正常に終了しました。
+
+トランザクション インストールが完了しました。
+
+トランザクションのインストールを実行中です。
+
+インストール段階を開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+インストール段階が正常に完了しました。コミット段階を開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+コミット段階が正常に終了しました。
+
+トランザクション インストールが完了しました。
+
+トランザクションのインストールを実行中です。
+
+インストール段階を開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+インストール段階が正常に完了しました。コミット段階を開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+コミット段階が正常に終了しました。
+
+トランザクション インストールが完了しました。
+
+トランザクションのインストールを実行中です。
+
+インストール段階を開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+インストール段階が正常に完了しました。コミット段階を開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+コミット段階が正常に終了しました。
+
+トランザクション インストールが完了しました。
+
+トランザクションのインストールを実行中です。
+
+インストール段階を開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+インストール段階が正常に完了しました。コミット段階を開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+コミット段階が正常に終了しました。
+
+トランザクション インストールが完了しました。
+
+トランザクションのインストールを実行中です。
+
+インストール段階を開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+インストール段階が正常に完了しました。コミット段階を開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+コミット段階が正常に終了しました。
+
+トランザクション インストールが完了しました。
+
+トランザクションのインストールを実行中です。
+
+インストール段階を開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+インストール段階が正常に完了しました。コミット段階を開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+コミット段階が正常に終了しました。
+
+トランザクション インストールが完了しました。
+
+トランザクションのインストールを実行中です。
+
+インストール段階を開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+インストール段階が正常に完了しました。コミット段階を開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+コミット段階が正常に終了しました。
+
+トランザクション インストールが完了しました。
+
+トランザクションのインストールを実行中です。
+
+インストール段階を開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+インストール段階が正常に完了しました。コミット段階を開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+コミット段階が正常に終了しました。
+
+トランザクション インストールが完了しました。
+
+トランザクションのインストールを実行中です。
+
+インストール段階を開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+インストール段階が正常に完了しました。コミット段階を開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+コミット段階が正常に終了しました。
+
+トランザクション インストールが完了しました。
+
+トランザクションのインストールを実行中です。
+
+インストール段階を開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+インストール段階が正常に完了しました。コミット段階を開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+コミット段階が正常に終了しました。
+
+トランザクション インストールが完了しました。
+
+トランザクションのインストールを実行中です。
+
+インストール段階を開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+インストール段階で例外が発生しました。
+System.InvalidOperationException: ユーザーは実行可能ファイル 'C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe' 内のサービスのインストールを取り消しました。
+
+インストールのロールバックを開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+ロールバックの段階が正常に完了しました。
+
+トランザクション インストールが完了しました。
+
+トランザクションのインストールを実行中です。
+
+インストール段階を開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+インストール段階で例外が発生しました。
+System.InvalidOperationException: ユーザーは実行可能ファイル 'C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe' 内のサービスのインストールを取り消しました。
+
+インストールのロールバックを開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+ロールバックの段階が正常に完了しました。
+
+トランザクション インストールが完了しました。
+
+トランザクションのインストールを実行中です。
+
+インストール段階を開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+インストール段階が正常に完了しました。コミット段階を開始しています。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+コミット段階が正常に終了しました。
+
+トランザクション インストールが完了しました。
+
+
+アンインストールを開始します。
+C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\sen\source\repos\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+アンインストールか完了しました。
+
+トランザクションのインストールを実行中です。
+
+インストール段階を開始しています。
+D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+インストール段階が正常に完了しました。コミット段階を開始しています。
+D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+コミット段階が正常に終了しました。
+
+トランザクション インストールが完了しました。
+
+
+アンインストールを開始します。
+D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+アンインストールか完了しました。
+
+トランザクションのインストールを実行中です。
+
+インストール段階を開始しています。
+D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+インストール段階が正常に完了しました。コミット段階を開始しています。
+D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+コミット段階が正常に終了しました。
+
+トランザクション インストールが完了しました。
+
+
+アンインストールを開始します。
+D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+アンインストールか完了しました。
+
+トランザクションのインストールを実行中です。
+
+インストール段階を開始しています。
+D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+インストール段階が正常に完了しました。コミット段階を開始しています。
+D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+コミット段階が正常に終了しました。
+
+トランザクション インストールが完了しました。
+
+
+アンインストールを開始します。
+D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+アンインストールか完了しました。
+
+トランザクションのインストールを実行中です。
+
+インストール段階を開始しています。
+D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+インストール段階が正常に完了しました。コミット段階を開始しています。
+D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+コミット段階が正常に終了しました。
+
+トランザクション インストールが完了しました。
+
+
+アンインストールを開始します。
+D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+アンインストールか完了しました。
+
+トランザクションのインストールを実行中です。
+
+インストール段階を開始しています。
+D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+インストール段階が正常に完了しました。コミット段階を開始しています。
+D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+コミット段階が正常に終了しました。
+
+トランザクション インストールが完了しました。
+
+
+アンインストールを開始します。
+D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+アンインストールか完了しました。
+
+トランザクションのインストールを実行中です。
+
+インストール段階を開始しています。
+D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+インストール段階が正常に完了しました。コミット段階を開始しています。
+D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+コミット段階が正常に終了しました。
+
+トランザクション インストールが完了しました。
+
+
+アンインストールを開始します。
+D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+アンインストールか完了しました。
+
+トランザクションのインストールを実行中です。
+
+インストール段階を開始しています。
+D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+インストール段階が正常に完了しました。コミット段階を開始しています。
+D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは D:\RRKS\RemoveRegisterKeyService\bin\Debug\RemoveRegisterKeyService.InstallLog にあります。
+
+コミット段階が正常に終了しました。
+
+トランザクション インストールが完了しました。

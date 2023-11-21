@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceInstaller", "ServiceInstaller\ServiceInstaller.csproj", "{450EC5B3-A67B-4ECB-8159-D67718C36CD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveRegisterKeyService", "RemoveRegisterKeyService\RemoveRegisterKeyService.csproj", "{47880791-8FBA-4F82-AFA4-54ED3DB0AC75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{450EC5B3-A67B-4ECB-8159-D67718C36CD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{450EC5B3-A67B-4ECB-8159-D67718C36CD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{450EC5B3-A67B-4ECB-8159-D67718C36CD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{450EC5B3-A67B-4ECB-8159-D67718C36CD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47880791-8FBA-4F82-AFA4-54ED3DB0AC75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47880791-8FBA-4F82-AFA4-54ED3DB0AC75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47880791-8FBA-4F82-AFA4-54ED3DB0AC75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47880791-8FBA-4F82-AFA4-54ED3DB0AC75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABEE1E3D-7A24-4AAF-8359-D20D558AE533}
+	EndGlobalSection
+EndGlobal
