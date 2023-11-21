@@ -1,9 +1,0 @@
-D:\RRKS\RemoveRegisterKeyService\bin\Release\RemoveRegisterKeyService.exe.config
-D:\RRKS\RemoveRegisterKeyService\bin\Release\RemoveRegisterKeyService.exe
-D:\RRKS\RemoveRegisterKeyService\bin\Release\RemoveRegisterKeyService.pdb
-D:\RRKS\RemoveRegisterKeyService\obj\Release\RemoveRegisterKeyService.ProjectInstaller.resources
-D:\RRKS\RemoveRegisterKeyService\obj\Release\RemoveRegisterKeyService.RemoveRegisterKeyService.resources
-D:\RRKS\RemoveRegisterKeyService\obj\Release\RemoveRegisterKeyService.csproj.GenerateResource.cache
-D:\RRKS\RemoveRegisterKeyService\obj\Release\RemoveRegisterKeyService.csproj.CoreCompileInputs.cache
-D:\RRKS\RemoveRegisterKeyService\obj\Release\RemoveRegisterKeyService.exe
-D:\RRKS\RemoveRegisterKeyService\obj\Release\RemoveRegisterKeyService.pdb

@@ -1,9 +1,0 @@
-D:\RRKS\ServiceInstaller\bin\Release\ServiceInstaller.exe.config
-D:\RRKS\ServiceInstaller\bin\Release\ServiceInstaller.exe
-D:\RRKS\ServiceInstaller\bin\Release\ServiceInstaller.pdb
-D:\RRKS\ServiceInstaller\obj\Release\ServiceInstaller.Form1.resources
-D:\RRKS\ServiceInstaller\obj\Release\ServiceInstaller.Properties.Resources.resources
-D:\RRKS\ServiceInstaller\obj\Release\ServiceInstaller.csproj.GenerateResource.cache
-D:\RRKS\ServiceInstaller\obj\Release\ServiceInstaller.csproj.CoreCompileInputs.cache
-D:\RRKS\ServiceInstaller\obj\Release\ServiceInstaller.exe
-D:\RRKS\ServiceInstaller\obj\Release\ServiceInstaller.pdb
