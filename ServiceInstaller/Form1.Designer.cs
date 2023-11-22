@@ -29,7 +29,8 @@ namespace ServiceInstaller
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.txtPath = new System.Windows.Forms.TextBox();
             this.btnBrowse = new System.Windows.Forms.Button();
             this.btnInstall = new System.Windows.Forms.Button();
@@ -39,13 +40,16 @@ namespace ServiceInstaller
             this.btnStartService = new System.Windows.Forms.Button();
             this.btnRefresh = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.lblVersion = new System.Windows.Forms.Label();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.btnRefreshLog = new System.Windows.Forms.Button();
             this.chkLastLog100 = new System.Windows.Forms.CheckBox();
             this.btnAssemblyInfo = new System.Windows.Forms.Button();
+            this.lblVersion = new System.Windows.Forms.Label();
+            this.contextMenuLog = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.clearAllLogToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            this.contextMenuLog.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtPath
@@ -149,20 +153,10 @@ namespace ServiceInstaller
             this.dataGridView1.Size = new System.Drawing.Size(424, 147);
             this.dataGridView1.TabIndex = 14;
             // 
-            // lblVersion
-            // 
-            this.lblVersion.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblVersion.Location = new System.Drawing.Point(442, 485);
-            this.lblVersion.Name = "lblVersion";
-            this.lblVersion.Size = new System.Drawing.Size(287, 24);
-            this.lblVersion.TabIndex = 15;
-            this.lblVersion.Text = "Ver.";
-            this.lblVersion.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
             // dataGridView2
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.dataGridView2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.dataGridView2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridView2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -175,6 +169,7 @@ namespace ServiceInstaller
             // 
             // btnRefreshLog
             // 
+            this.btnRefreshLog.ContextMenuStrip = this.contextMenuLog;
             this.btnRefreshLog.Location = new System.Drawing.Point(638, 31);
             this.btnRefreshLog.Name = "btnRefreshLog";
             this.btnRefreshLog.Size = new System.Drawing.Size(92, 56);
@@ -200,20 +195,44 @@ namespace ServiceInstaller
             this.btnAssemblyInfo.Name = "btnAssemblyInfo";
             this.btnAssemblyInfo.Size = new System.Drawing.Size(204, 39);
             this.btnAssemblyInfo.TabIndex = 19;
-            this.btnAssemblyInfo.Text = "Fetch File Infomation";
+            this.btnAssemblyInfo.Text = "Show File Assembly Infomation";
             this.btnAssemblyInfo.UseVisualStyleBackColor = true;
             this.btnAssemblyInfo.Click += new System.EventHandler(this.btnAssemblyInfo_Click);
+            // 
+            // lblVersion
+            // 
+            this.lblVersion.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblVersion.Location = new System.Drawing.Point(442, 485);
+            this.lblVersion.Name = "lblVersion";
+            this.lblVersion.Size = new System.Drawing.Size(288, 24);
+            this.lblVersion.TabIndex = 20;
+            this.lblVersion.Text = "Ver.";
+            this.lblVersion.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // contextMenuLog
+            // 
+            this.contextMenuLog.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.clearAllLogToolStripMenuItem});
+            this.contextMenuLog.Name = "contextMenuLog";
+            this.contextMenuLog.Size = new System.Drawing.Size(136, 26);
+            // 
+            // clearAllLogToolStripMenuItem
+            // 
+            this.clearAllLogToolStripMenuItem.Name = "clearAllLogToolStripMenuItem";
+            this.clearAllLogToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.clearAllLogToolStripMenuItem.Text = "Clear all log";
+            this.clearAllLogToolStripMenuItem.Click += new System.EventHandler(this.clearAllLogToolStripMenuItem_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(744, 521);
+            this.Controls.Add(this.lblVersion);
             this.Controls.Add(this.btnAssemblyInfo);
             this.Controls.Add(this.chkLastLog100);
             this.Controls.Add(this.btnRefreshLog);
             this.Controls.Add(this.dataGridView2);
-            this.Controls.Add(this.lblVersion);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnRefresh);
             this.Controls.Add(this.btnStopService);
@@ -228,6 +247,7 @@ namespace ServiceInstaller
             this.Text = "Service Installer";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            this.contextMenuLog.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -244,11 +264,13 @@ namespace ServiceInstaller
         private System.Windows.Forms.Button btnStartService;
         private System.Windows.Forms.Button btnRefresh;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label lblVersion;
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.Button btnRefreshLog;
         private System.Windows.Forms.CheckBox chkLastLog100;
         private System.Windows.Forms.Button btnAssemblyInfo;
+        private System.Windows.Forms.Label lblVersion;
+        private System.Windows.Forms.ContextMenuStrip contextMenuLog;
+        private System.Windows.Forms.ToolStripMenuItem clearAllLogToolStripMenuItem;
     }
 }
 

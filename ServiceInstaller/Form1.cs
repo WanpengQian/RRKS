@@ -41,10 +41,11 @@ namespace ServiceInstaller
 
             Assembly assembly = Assembly.GetExecutingAssembly();
             FileVersionInfo fvi = FileVersionInfo.GetVersionInfo(assembly.Location);
-            lblVersion.Text = "Ver. " + fvi.FileVersion;
+            var linkTimeLocal = Utils.GetLinkerTime(assembly);
+            lblVersion.Text = "Ver. " + fvi.FileVersion + ", Build Date: " + linkTimeLocal;
         }
 
-        private void refreshLog(int limit)
+        private void refreshLog(int limit = -1)
         {
             try
             {
@@ -86,7 +87,7 @@ namespace ServiceInstaller
             ServiceController sc = getServiceConstroller(mServiceName);
             if (sc != null)
             {
-                dtInfo.AddRow("Install Status", "Installed");
+                dtInfo.AddRow("Installation Status", "Installed");
 
                 DateTime? regdate = RegistryHelper.GetDateModified(RegistryHive.LocalMachine, "SYSTEM\\CurrentControlSet\\Services\\" + mServiceName);
                 if(regdate != null)
@@ -305,6 +306,17 @@ namespace ServiceInstaller
             var info = new AssemlyInfoWindow(path, inspector);
             info.Show();
         }
+
+        private void clearAllLogToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Clear all the logs, OK?", "Confirm",
+                MessageBoxButtons.OKCancel, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) == DialogResult.Cancel)
+                return;
+
+            EventLog log = new EventLog("RemoveRegisterKeyServiceLog");
+            log.Clear();
+            refreshLog();
+        }
     }
 
     public class DataTableInfo : DataTable
@@ -343,4 +355,5 @@ namespace ServiceInstaller
         }
 
     }
+
 }
