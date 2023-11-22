@@ -31,6 +31,7 @@ namespace RemoveRegisterKeyService
 
         protected override void OnStart(string[] args)
         {
+            counter = 10;
             Timer timer = new Timer();
             timer.Interval = 60000; // 60 seconds
             timer.Elapsed += new ElapsedEventHandler(this.OnTimer);
@@ -42,18 +43,17 @@ namespace RemoveRegisterKeyService
 
         public void OnTimer(object sender, ElapsedEventArgs args)
         {
-            eventLog1.WriteEntry("Timer");
             counter--;
             if(counter <= 0)
             {
                 counter = Properties.Settings.Default.Interval;
-                RemoveRegisterKey();
+                string key = Properties.Settings.Default.Key;
+                RemoveRegisterKey(key);
             }
         }
 
-        private void RemoveRegisterKey()
+        private void RemoveRegisterKey(string keyName)
         {
-            string keyName = Properties.Settings.Default.Key;
             eventLog1.WriteEntry("Check values of register key [ " + keyName + " ] and removed it.");
             RegistryKey localMachine = RegistryKey.OpenBaseKey(Microsoft.Win32.RegistryHive.LocalMachine, RegistryView.Registry64);
             RegistryKey key64Bit = localMachine.OpenSubKey(keyName, true);
@@ -79,8 +79,9 @@ namespace RemoveRegisterKeyService
                 {
                     try
                     {
-                        this.RestartWindowsService("TermService");
-                        eventLog1.WriteEntry("TermService is restarted.");
+                        string serviceName = "TermService";
+                        RestartWindowsService(serviceName);
+                        eventLog1.WriteEntry(serviceName + " is restarted.");
                     }
                     catch (Exception e)
                     {

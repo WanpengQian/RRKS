@@ -103,7 +103,7 @@ namespace ServiceInstaller
                         string filename = System.IO.Path.GetFileNameWithoutExtension(path);
                         DateTime? startTime = GetStartTime(filename);
                         if(startTime != null)
-                            dtInfo.AddRow("Servie Start Date", startTime.ToString());
+                            dtInfo.AddRow("Service Start Date", startTime.ToString());
                         break;
                     case ServiceControllerStatus.Stopped:
                         dtInfo.AddRow("Service Status", "Stopped");
@@ -125,13 +125,13 @@ namespace ServiceInstaller
                 switch(sc.StartType)
                 {
                     case ServiceStartMode.Automatic:
-                        dtInfo.AddRow("Startup Mode", "Automatic");
+                        dtInfo.AddRow("Service Start Mode", "Automatic");
                         break;
                     case ServiceStartMode.Disabled:
-                        dtInfo.AddRow("Startup Mode", "Disabled");
+                        dtInfo.AddRow("Service Start Mode", "Disabled");
                         break;
                     case ServiceStartMode.Manual:
-                        dtInfo.AddRow("Startup Mode", "Manual");
+                        dtInfo.AddRow("Service Start Mode", "Manual");
                         break;
                 }
 
@@ -146,7 +146,7 @@ namespace ServiceInstaller
             }
             else
             {
-                dtInfo.AddRow("Install Status", "Not Install");
+                dtInfo.AddRow("Installation Status", "Not Install");
                 btnInstall.Enabled = true;
             }
 
