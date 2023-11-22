@@ -13,6 +13,7 @@ using System.Reflection;
 using System.Drawing;
 
 using AssemblyInfo;
+using System.Collections.Generic;
 
 namespace ServiceInstaller
 {
@@ -47,37 +48,60 @@ namespace ServiceInstaller
 
         private void refreshLog(int limit = -1)
         {
+            string logName = "RemoveRegisterKeyServiceLog";
+            dtLog.Clear();
+            Application.DoEvents();
+            if (!EventLog.Exists(logName))
+            {
+                MessageBox.Show(logName + " is not exists.");
+                return;
+            }
             try
             {
-                dtLog.Clear();
-                Application.DoEvents();
-                EventLog log = new EventLog("RemoveRegisterKeyServiceLog");
-                if (log != null)
-                {
-                    var seq = 0;
-                    var entries = log.Entries.Cast<EventLogEntry>()
-                                             .Select(x => new
-                                             {
-                                                 SequenceNo = ++seq,
-                                                 x.TimeGenerated,
-                                                 x.Message
-                                             }).ToList()
-                                             .OrderByDescending(x => x.TimeGenerated)
-                                             .AsQueryable();
-                    if (limit > 0)
-                        entries = entries.Take(limit);
+                EventLog log = new EventLog(logName);
+                var seq = 0;
+                var entries = log.Entries.Cast<EventLogEntry>()
+                                            .Select(x => new
+                                            {
+                                                SequenceNo = ++seq,
+                                                x.TimeGenerated,
+                                                x.Message
+                                            }).ToList()
+                                            .OrderByDescending(x => x.TimeGenerated)
+                                            .AsQueryable();
+                if (limit > 0)
+                    entries = entries.Take(limit);
 
-                    foreach (var entry in entries)
-                    {
-                        dtLog.AddRow(entry.SequenceNo, entry.TimeGenerated, entry.Message);
-                    }
+                foreach (var entry in entries)
+                {
+                    dtLog.AddRow(entry.SequenceNo, entry.TimeGenerated, entry.Message);
                 }
             }
             catch (Exception e)
             {
-                MessageBox.Show("Error!", e.ToString());
+                MessageBox.Show(e.ToString(), "Error!");
             }
         }
+
+        private Dictionary<ServiceControllerStatus, string> ServiceControllerStatusDict = new Dictionary<ServiceControllerStatus, string>
+        {
+            {ServiceControllerStatus.ContinuePending, "ContinuePending"},
+            {ServiceControllerStatus.Paused, "Paused"},
+            {ServiceControllerStatus.PausePending, "PausePending"},
+            {ServiceControllerStatus.Running, "Running"},
+            {ServiceControllerStatus.StartPending, "StartPending"},
+            {ServiceControllerStatus.Stopped, "Stopped"},
+            {ServiceControllerStatus.StopPending, "StopPending"},
+        };
+
+        private Dictionary<ServiceStartMode, string> ServiceStartModeDict = new Dictionary<ServiceStartMode, string>
+        {
+            {ServiceStartMode.Manual, "Manual"},
+            {ServiceStartMode.Automatic, "Automatic"},
+            {ServiceStartMode.Disabled, "Disabled"},
+            {ServiceStartMode.Boot, "Boot"},
+            {ServiceStartMode.System, "System"},
+        };
 
         private void refreshStatus()
         {
@@ -94,47 +118,19 @@ namespace ServiceInstaller
                     dtInfo.AddRow("Installed Date", regdate.ToString());
 
                 btnUninstall.Enabled = true;
-                string path = getExecutePath(mServiceName);
+                string path = GetExecutePath(mServiceName);
                 txtPath.Text = path;
 
-                switch (sc.Status)
+                dtInfo.AddRow("Service Status", ServiceControllerStatusDict[sc.Status]);
+                if(sc.Status == ServiceControllerStatus.Running)
                 {
-                    case ServiceControllerStatus.Running:
-                        dtInfo.AddRow("Service Status", "Running");
-                        string filename = System.IO.Path.GetFileNameWithoutExtension(path);
-                        DateTime? startTime = GetStartTime(filename);
-                        if(startTime != null)
-                            dtInfo.AddRow("Service Start Date", startTime.ToString());
-                        break;
-                    case ServiceControllerStatus.Stopped:
-                        dtInfo.AddRow("Service Status", "Stopped");
-                        break;
-                    case ServiceControllerStatus.Paused:
-                        dtInfo.AddRow("Service Status", "Paused");
-                        break;
-                    case ServiceControllerStatus.StopPending:
-                        dtInfo.AddRow("Service Status", "StopPending");
-                        break;
-                    case ServiceControllerStatus.StartPending:
-                        dtInfo.AddRow("Service Status", "StartPending");
-                        break;
-                    default:
-                        dtInfo.AddRow("Service Status", "Status Changing");
-                        break;
+                    string filename = System.IO.Path.GetFileNameWithoutExtension(path);
+                    DateTime? startTime = GetStartTime(filename);
+                    if (startTime != null)
+                        dtInfo.AddRow("Service Start Date", startTime.ToString());
                 }
 
-                switch(sc.StartType)
-                {
-                    case ServiceStartMode.Automatic:
-                        dtInfo.AddRow("Service Start Mode", "Automatic");
-                        break;
-                    case ServiceStartMode.Disabled:
-                        dtInfo.AddRow("Service Start Mode", "Disabled");
-                        break;
-                    case ServiceStartMode.Manual:
-                        dtInfo.AddRow("Service Start Mode", "Manual");
-                        break;
-                }
+                dtInfo.AddRow("Service Start Mode", ServiceStartModeDict[sc.StartType]);
 
                 if (sc.Status == ServiceControllerStatus.Running)
                 {
@@ -253,7 +249,7 @@ namespace ServiceInstaller
             refreshStatus();
         }
 
-        private string getExecutePath(string name)
+        private string GetExecutePath(string name)
         {
             ManagementObjectSearcher searcher = new ManagementObjectSearcher("SELECT * FROM Win32_Service");
             var collection = searcher.Get().Cast<ManagementBaseObject>()
